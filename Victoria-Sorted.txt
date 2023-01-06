@@ -1,0 +1,2564 @@
+3dButtonType					interface thing. Boring
+3dIconType						interface thing. Boring
+3dposition						interface thing. Boring
+abort
+accept_loan
+accepted_culture				CONDITION [COUNTRY]: returns true if the country in scope has specified accepted culture
+accumulated_losses
+acting_capital
+activate_building				EFFECT [TECH]: Activates a factory or province building
+activate_order
+activate_technology				EFFECT [COUNTRY]: Activates the specified tech for the country in scope
+activate_tradegoods
+activate_unit					EFFECT [TECH]: Activates a military unit (army or navy)
+activate_unit_plan_command
+activation
+activation_date
+active
+active_advisors
+active_inventions
+active_leaders
+active_mission
+active_party
+active_war
+actor
+actor_state
+actorfile
+actual_sold
+actual_sold_domestic
+actual_sold_world
+adapter
+add_accepted_culture			EFFECT [COUNTRY]: Adds the specified accepted culture to the country in scope
+add_ai_strategy
+add_attacker
+add_building
+add_casus_belli					EFFECT [COUNTRY]: Gives a CB against the country in scope to the target
+add_core						EFFECT [PROVINCE]: Adds a core of the specified province to the province in scope
+add_country_modifier			EFFECT [COUNTRY]: Adds the specified modifier to the country in scope
+add_crime
+add_crisis_interest				EFFECT [COUNTRY]: Has the GP in scope join the Crisis
+add_crisis_temperature			EFFECT [COUNTRY]: Increases the crisis tension by the specified amount
+add_defender
+add_economic_reform				EFFECT [COUNTRY]: Adds the specified economic reform to the unciv
+add_idea
+add_military_reform				EFFECT [COUNTRY]: Adds the specified military reform to the unciv
+add_political_reform			EFFECT [COUNTRY]: Adds the specified political reform to the civ
+add_province_modifier			EFFECT [PROVINCE]: Adds the specified province modifier to the province in scope
+add_social_reform				EFFECT [COUNTRY]: Adds the specified social reform to the civ
+add_tax_relative_income			EFFECT [COUNTRY]: Changes treasury by percentage of daily tax income
+add_theatre_command
+add_to_sphere
+add_trait
+add_war_goal
+additative
+additional_offset
+addplayer
+address
+adjacencies
+adm_efficiency
+administration_spending			CONDITION [COUNTRY]: Returns true if the country is spending at least the value in administration
+administrative					boring. Applied to reforms to determine if bureaucrats affect them
+administrative_efficiency
+administrative_efficiency_modifier	MODIFIER [COUNTRY]: Change the admin efficiency by the specified amount
+administrative_multiplier
+admiral
+advanced_factory
+advanced_start
+advisor
+advisor_cost
+affects_checksum
+Agent
+agree_with_ruling_party			CONDITION [POP]: Returns true if the party has the same ideology as the current ruling party
+ai_chance						boring. Defined section of events
+ai_hard_strategy
+ai_index
+ai_seed
+ai_will_do						boring. Defined section of decisions
+air
+air_attack
+air_capacity
+air_combat
+air_defence
+air_detection
+air_intercept
+air_organisation
+air_reserve
+air_superiority
+air_supply
+air_transport
+alert							boring. Defined section of decisions
+align
+align_towards
+alignment
+all_allowed_states
+all_core						SCOPE [COUNTRY EFFECTS]: All cores of a given country
+all_cots
+all_voting
+alliance
+alliance_with					CONDITION [COUNTRY]: Returns true of the country specified and country in scope have an alliance
+allianceaction
+allience_wide_guarantee
+allow							boring. Defined section of decisions
+allow_all_culture_groups		boring. Rebels thing
+allow_all_cultures				boring. Rebels thing
+allow_all_ideologies			boring. Rebels thing
+allow_all_religions				boring. Rebels thing
+allow_ban_of_parties
+allow_escorts
+allow_foreign_investment
+allow_merge
+allow_multiple_instances
+allow_province_click
+allow_screen
+allow_screens
+allow_unpause
+allowed
+allowed_conversion
+allowed_countries			boring. cb thing
+allowed_ideas
+allowed_provinces
+allowed_states				boring. cb thing
+allowed_states_in_crisis	boring. cb thing
+allowed_substate_regions	boring. cb thing
+allowed_to_vote
+alluserlist
+allwaystransparent
+ally
+alter_theatre_command
+altitude
+always						CONDITION [COUNTRY]: Returns the boolean value specified
+alwaysCounters
+ambient
+ambient_volume
+amph_attack
+amphibious
+and							boring. logical operator
+animatedmaptext				boring. Interface stuff
+animatedMesh				boring. Interface stuff
+animatedMeshType			boring. Interface stuff
+animatedType				boring. Interface stuff
+animation
+anisotropic_filtering
+anisotropicFiltering
+annex
+annex_to					EFFECT [COUNTRY]: Annexes country in scope to target
+annexationaction
+announce
+announcedone
+antagonize
+anti
+anti_alias_geometry
+any
+any_center_of_trade
+any_core					SCOPE [COUNTRY TRIGGER]: Scopes to any province that is a core of the country
+any_country					SCOPE [COUNTRY EFFECTS]: Scopes to any country except the country already in scope
+any_elector
+any_greater_power			SCOPE [COUNTRY BOTH]: Scopes to any greater power
+any_known_country
+any_neighbor_country		SCOPE [COUNTRY BOTH]: Scopes to any neighbor country
+any_neighbor_province		SCOPE [PROVINCE BOTH]: Scopes to any neighbor province of the province in scope
+any_owned					SCOPE [COUNTRY EFFECTS]: Scopes to any owned province
+any_owned_province			SCOPE [COUNTRY TRIGGER]: Scopes to any owned province
+any_pop						SCOPE [COUNTRY PROVINCE BOTH]: Scopes to any pop in the scope
+any_sphere_member			SCOPE [COUNTRY TRIGGER]: Scopes to any sphere member
+any_state					SCOPE [COUNTRY TRIGGER]: Scopes to any state (region)
+any_substate				SCOPE [COUNTRY TRIGGER]: Scopes to any substate
+appoint_ruling_party
+archive
+area
+area_theatre
+args
+army_names
+army_size_percentage
+army_tradition
+arrow_state
+arrows_count
+arrowType					boring. Interface stuff
+article
+article_limits
+article_tensions
+artisan_goods_input
+artisan_goods_output
+artisan_goods_throughput
+artisan_input
+artisan_output
+artisan_throughput
+as_ruler
+ask_military_access
+assign_leader
+assimilate					EFFECT [PROVINCE]: Assimilates all pops to the primary culture
+assimilated
+assimilation_chance			boring. pop_types thing
+assimilation_rate			MODIFIER [PROVINCE]: Increases assimilation (but not the base rate) by the specified percentage
+at_sea
+at_war_with_religious_enemy
+attach
+attach_unit
+attachId
+attachments
+attack_delay
+attack_movement_speed
+attack_natives
+attack_reinforce_chance
+attacker_backer
+attacker_goal
+attacker_poll
+attacker_wait
+attenuation
+attrition
+auto_assign_leaders
+auto_convert
+auto_create_leaders
+auto_send_merchants
+autoassign_leaders
+autogenerate_leaders
+automate_sliders
+automate_trade
+autosave
+available_from_start	boring. goods stuff
+average_consciousness	CONDITION [COUNTRY PROVINCE]: Returns true if the average consciousness is at least the given value
+average_militancy		CONDITION [COUNTRY PROVINCE]: Returns true if the average militancy is at least the given value
+average_year
+avoid
+back_down_crisis_action
+badboy_factor
+badboy_limit
+balanced
+ban_embassy
+ban_embassy_country
+bank
+banuser
+BarChartType
+BarGraphType
+base
+base_tax
+basic_start
+basic_type
+battle
+battle_plan
+battle_plan_delete
+battle_plan_send
+battlearrow
+befriend
+better
+big_producer
+big_ship
+billboardType
+bitmapfont			boring. interface stuff
+bitmapfonts			boring. interface stuff
+block_attachment
+blockade_efficiency
+blue
+bodytexture
+bomb_convoy
+bomber_targeting
+bonus
+boost
+boost_strongest_party
+border_cutoff		boring. interface stuff
+border_heights		boring. interface stuff
+borderless
+borders_count
+borderSize
+breach
+break_alliance_on_win
+break_truce_infamy_factor
+break_truce_militancy_factor
+break_truce_prestige_factor
+bribe_cardinal
+brigades_compare	CONDITION [COUNTRY]: Returns true if the country in scope has x times the amount of regiments as the target
+budget_balance
+budget_change
+build_cost
+build_cost_ic
+build_cost_ic_modifier
+build_cost_manpower
+build_cost_mp_modifier
+build_factory_in_capital_state	EFFECT [COUNTRY]: Builds a specified factory in the capital state
+build_factory_invest
+build_fort_in_capital	EFFECT [COUNTRY]: Builds a fort to the specified level in the capital. Must have the tech for it. Seems to mess up the parsing. Only use if last effect in last decision/event in file
+build_railway
+build_railway_in_capital	EFFECT [COUNTRY]: Builds a railway to the specified level in the capital. Must have the tech for it. Seems to mess up the parsing. Only use if last effect in last decision/event in file
+build_railway_invest
+build_time
+build_time_modifier
+builder
+building_construction
+building_deployment
+building_prov
+buildunit
+built_news
+burn_colony
+buttonDrag
+buttonFont
+buttonMesh
+buttonText
+buy_domestic
+cache
+call_ally
+call_crusade_action
+callaction
+camera
+camera_rotation_speed
+cameraMove
+cameraX
+cameraY
+campaign_counter
+can_be_recruited	boring. pop things
+can_build
+can_build_factory		CONDITION [PROVINCE]: Returns true if the state can build the specified factory
+can_build_factory_in_capital_state	CONDITION [COUNTRY]: Returns true if the capital state can build the specified factory
+can_build_fort_in_capital
+can_build_in_province
+can_build_overseas
+can_build_railway_in_capital
+can_create_vassals		CONDITION [COUNTRY]: Returns true of the country can release a puppet
+can_enforce_trigger
+can_invest_in_pop_projects
+can_nationalize			CONDITION [COUNTRY]: Returns true if another country has invested in the original country
+can_negotiate_trigger
+can_paradrop
+can_reduce_consciousness
+can_reduce_militancy
+can_reinforce
+can_stockpile
+can_subsidise
+can_upgrade
+can_use
+can_work_factory
+can_work_rgo
+canals
+cancel_alliance
+cancel_ask_military_access
+cancel_cb
+cancel_focus
+cancel_give_military_access
+cancel_loan
+cancel_mission_command
+cancel_movement
+cancel_unit
+cancel_unit_command
+cancel_warsubsidy
+cancelled_loans
+capital_scope
+cardinal
+carrier_protection
+carrier_size
+carrier_target
+case
+cash_reserves		CONDITION [POP]: Return true if any pop in the province has a cash reserve equal to x percent of their daily needs
+cast_electoral_vote_command
+casualty_trickleback
+casus_belli
+categories
+category
+cavalry
+cb_creation_speed
+cb_generation
+cb_generation_speed_modifier	MODIFIER [COUNTRY]: Changes the speed at which CBs are created
+cb_on_government_enemies
+cb_on_religious_enemies
+cease_colonization
+center
+centre
+chance
+change_advisor
+change_buy_internal
+change_buy_stockpile
+change_colonial_maintenance
+change_controller
+change_cot_priority
+change_investment
+change_law
+change_leadership
+change_maintenance
+change_manpower
+change_minister
+change_missionary_maintenance
+change_occupation_policy
+change_prefered_unit
+change_province_name		EFFECT [PROVINCE]: Changes the name of the province
+change_region_name			EFFECT [STATE]: Changes the name of the region
+change_siege
+change_state_building_priority
+change_state_building_settings
+change_tag					EFFECT [COUNTRY]: Changes tag to a country that does not exist
+change_tag_no_core_switch	EFFECT [COUNTRY]: Changes tag to a country that does exist
+change_tariffs
+change_tech_priority
+change_template
+change_trade_cap
+change_trade_setting
+change_variable				EFFECT [COUNTRY]: Changes the specified variable by n
+changeable
+changefog
+changeidea
+changepolicies
+changetolerance
+channel
+channellist
+channellistreply
+channeluserlist
+charSet
+chat_close_channel
+chat_new_channel
+chat_request_sync
+chat_sync
+chat_user_joined
+chat_user_joined_channel
+chat_user_left
+chat_user_left_channel
+chatbuffer
+chatmessage
+chattext
+chatuserschange
+check_variable
+checkbox
+checkboxType
+chunkreceived
+city
+city_nudge
+civilization_progress		CONDITION [COUNTRY]: Return true if the country is more than n percent civilized
+civilization_progress_modifier	boring. issues stuff
+civilize_command
+civilized			CONDITION [COUNTRY]: Returns true if the country is civilized
+claimaction
+claimdefender
+clear
+clear_all_controllers
+clear_news_flag
+clear_news_scopes
+clearbookmark
+click_to_front
+clicksound
+client
+client_only
+client_ping
+climate
+close_factory
+closed_by_player
+cloud_coverage
+clr_country_flag	EFFECT [COUNTRY]: Clears the global flag
+clr_global_flag		EFFECT [COUNTRY]: Clears the country flag
+clr_province_flag
+coastal_fort_level
+colonial
+colonial_life_rating
+colonial_maintenance
+colonial_migration
+colonial_nation
+colonial_points
+colonial_prestige
+colonial_range
+colonial_validity_check
+colonialmigration_chance
+colonist_cost
+colonist_placement_chance
+colonists
+colonize
+colonize_prov
+colony
+colony_construction
+colony_invest
+colony_reset
+color_override
+color1
+color2
+color3
+colorcodes
+colortwo
+combat_efficiency
+combat_event
+combat_move_speed
+combat_movement_speed
+combined_arms_bonus
+commandlist
+completion_size
+con
+con_factor
+concede
+confirm
+conquer_prov
+conquercommand
+conquistador
+consciousness
+consolidate
+construct_single_unit
+construct_state_building
+constructbuilding
+constructing_cb
+constructing_cb_discovered
+constructing_cb_progress	CONDITION [COUNTRY]: Returns true if the cb the country is constructing is at least n percent done
+constructing_cb_type		CONDITION [COUNTRY]: Returns true if the cb the country is constructing is of the specified type
+construction_speed
+construction_time_left
+consumer_goods
+consumer_goods_demand
+cont_on_unit_id_select
+cont_on_unit_select
+cont_on_unit_select_prov
+continue_on_action
+continue_on_interface
+control_points
+controlled_by				CONDITION [PROVINCE]: Returns true if the province is controlled by the specified country
+controlled_by_rebels		CONDITION [PROVINCE]: Returns true if the province is controlled by rebels
+controller					SCOPE [PROVINCE TRIGGER EFFECTS]: Changes scope to the controller of the province in scope 
+controls					CONDITION [COUNTRY]: Returns true if the country controls the province with the specified id
+converison_chance
+conversion_chance
+convert
+convert_king
+convert_prov
+converted
+convoy_escort
+convoy_raid
+core_pop_consciousness_modifier		MODIFIER [COUNTRY]: Increases the monthly consciousness of accepted pops by n
+core_pop_militancy_modifier			MODIFIER [COUNTRY]: Increases the monthly militancy of accepted pops by n
+corneredTileSpriteType
+corruption
+cost_multiplier
+cot
+cot_prov
+cot_value
+count
+counter_distance
+counter_espionage
+counter_intelligence
+CounterType
+country_decisions		boring. decisions stuff
+country_desc
+country_event			boring. events stuff
+country_migration_target	boring. pop_types stuff
+country_units_in_province	CONDITION [PROVINCE]: Returns true if the specified country has any units in the current province
+country_units_in_state		CONDITION [PROVINCE]: Returns true if the specified country has any units in the current state
+countrychat
+create_admiral
+create_advisor
+create_alliance				EFFECT [COUNTRY]: Creates an alliance between the scope and target
+create_colony
+create_conquistador
+create_cot
+create_explorer
+create_general
+create_higher
+create_leader
+create_marriage
+create_native
+create_new_hq
+create_pirate
+create_protectorate
+create_revolt
+create_state
+create_succession_war
+create_unit
+create_vassal				EFFECT [COUNTRY]: Makes the specified a vassal of the scoped country
+createvassal
+creator
+creditor
+crime_fighting
+crime_higher_than_education	CONDITION [COUNTRY]: Returns true if the admin slider is higher than the education slider
+crisis_back
+crisis_exist				CONDITION [COUNTRY]: Returns true if there is an active crsis
+crisis_join_interest
+crisis_join_side
+crisis_manager
+crisis_offer
+crisis_state_scope
+crisis_surrender
+crusade_start
+crusade_target
+cube
+cubeType
+cull_distance
+cultural_union				SCOPE [COUNTRY POP TRIGGER EFFECTS]: Scopes to the cultural union of the country/pop
+culture						CONDITION [POP]: Returns true if the province the pop resides in has a majority of the specified culture
+culture_command
+culture_group
+culture_has_union_tag		CONDITION [COUNTRY]: Returns true if the country's primary culture has a union tag
+culture_voting				boring. voting rules
+current
+current_distance
+current_income
+current_producing
+cursor
+custom_action
+custom_int_arg
+d_max
+d_min
+daily
+daily_tick
+dailyrepay
+data
+date_eq
+date_greater
+dates
+datetime
+day
+days
+days_of_loss
+days_without_input
+deactivate_unit
+death_date
+debark
+debtaction_action
+debtor
+debug_saves
+debugmonitor
+decision				boring. decision stuff
+decline_loan
+decrease_game_speed
+decrease_opinion
+decrease_relation
+decryption
+default
+default_enabled
+default_morale
+default_organisation
+default_templates
+defaultAnimationTime
+defect_delay
+defection
+defence
+defence_modifier
+defend_prov
+defend_reinforce_chance
+defender_backer
+defender_goal
+defender_of_faith
+defender_poll
+defender_softness
+defensiveness
+define_admiral			EFFECT [COUNTRY]: Creates a specified admiral
+define_advisor
+define_conquistador
+define_explorer
+define_general			EFFECT [COUNTRY]: Creates a specified general
+define_ruler
+definition
+definitions
+delayed_event
+delayedTooltipText
+delete_factory_if_no_input
+demand
+demand_pool
+demands_accepted_effect
+demands_enforced_effect
+demands_enforced_trigger
+demote_migrant
+demote_to
+demoted
+demotion_chance
+dependencies
+deploy_unit
+description_case
+destroy_cot
+destroy_factory
+destroy_state_building
+detach_blockade
+detach_merc
+detach_siege
+detach_unit
+details
+dhont
+difficulty
+diffuse
+dig_in
+dig_in_cap
+dig_in_last_date
+digin_bonus
+diplo_influence
+diplomatic_action
+diplomatic_decisions
+diplomatic_influence
+diplomatic_points
+diplomatic_points_modifier	MODIFIER [COUNTRY]: Changes diplo point gain by x
+diplomatic_skill
+diplomaticactioncommand
+diplomats
+dir
+direct_tax_percentage
+direction
+disband_all_unit
+disband_on_leader_death
+disband_regiment
+disband_undermanned_unit
+disband_unit
+discipline
+discover
+discovercommand
+discovered
+discovered_by
+discovered_goods
+discovery_dates
+discovery_religion_dates
+discredit
+discreditor
+disengage
+disengage_timer
+dismantleHRE
+dissableSprite
+dissent
+dissent_impact
+distance
+distributechat
+distribution
+distrust
+division_size
+doautosave
+domain_region
+domestic_demand_pool
+domestic_exported
+domestic_panel
+domestic_produced
+domestic_produced_yesterday
+domestic_produced_yesterday_
+domestic_supply_pool
+dominant_culture
+dominant_issue			EFFECT [POP]: Changes a pop's preference to one issue
+dominant_religion
+dontRender
+downsound
+downSprite
+drag
+draw
+drawers
+drawn
+drift_speed
+dropDown
+dropDownMenuType
+dummy
+duration
+dynamic_lights
+dynamic_tags
+economic_policy
+economic_reform
+economic_reforms
+editBoxType
+education_efficiency			boring. tech stuff
+education_efficiency_modifier	MODIFIER [COUNTRY]: changes education efficincy by n
+education_spending				CONDITION [COUNTRY]: return true if the country's education slider is more than n
+effect_multiplier
+effectFile
+EffectStartFrame
+efficiency
+election_interval
+elector
+elector_countries
+embargo
+embargo_action
+embargoaction
+embark
+EMFXActorType
+emigration_chance
+emperor
+employee
+employee_count
+employees
+employment
+empty
+empty_provinces
+enable
+enable_canal
+enable_crime
+enable_great_wars
+enable_ideology
+enable_leader
+enable_religion
+enable_world_wars
+encirclement_bonus
+encryption
+end
+end_guarantee
+end_military_access			EFFECT [COUNTRY]: Ends military access to the specified country
+end_non_aggression_pact
+end_war						EFFECT [COUNTRY]: Ends any war between the country in scope and the specified country
+endAt
+enemy_provinces
+energy_production
+energy_to_oil_conversion
+enroute
+envelopment_bonus
+equivalent
+escort_efficiency
+escorts
+espionage_bonus
+estimated_monthly_income
+eu3dialogtype
+evasion
+everyday_needs				CONDITION [POP]: Returns true if any pop in the province has everyday needs equal to x or more.
+everyday_needs_income
+exclusive
+excommunicate_action
+excommunicated
+executable
+execute_decision_command
+execute_rebel_acceptance_command
+exists
+expand_factory
+expand_factory_invest
+expanding
+expeditionary_date
+expeditionary_owner
+expel_advisors
+expense
+expenses
+experience
+experience_bonus
+expiry_date
+explore_prov
+explorer
+extend
+extend_loan
+external_migration
+faction
+faction_action
+faction_progress
+factor
+factory_cost			MODIFIER [COUNTRY]: Changes the cost to build a factory
+factory_goods_input
+factory_goods_output
+factory_goods_throughput
+factory_input			MODIFIER [COUNTRY]: Changes the input efficiency of factories
+factory_maintenance		MODIFIER [COUNTRY]: Changes the maximum maintenance of factories
+factory_output			MODIFIER [COUNTRY]: Changes the output efficiency of factories
+factory_owner_cost		MODIFIER [COUNTRY]: Changes the cost of pops to build factories
+factory_priority
+factory_rotation
+factory_throughput		MODIFIER [COUNTRY]: Changes the throughput of factories
+fadeout
+falloff
+farm
+farm_rgo_eff			tech stuff. boring
+farm_rgo_size			tech stuff. boring
+female
+fighter_targeting
+file
+file_version
+filelist
+finduser
+finduserresponce
+finish
+fire_only_once			event stuff. boring
+fire_range
+fired_events
+first
+first_names				cultures stuff. boring
+first_offset
+first_on_top
+firstRun
+fixed_ai_strategy
+fixedsize
+flags
+flags2
+flagType
+flareType
+flashpoint
+flashpoint_tag_scope
+flashpoint_tension
+fleet_names
+flipu
+flipv
+floating_flag
+focus
+folder
+folders
+font					interface stuff. boring
+font_size				interface stuff. boring
+fontName				interface stuff. boring
+fonts					interface stuff. boring
+force
+force_converted
+foreign_investement
+foreign_investment
+foreign_merchant_compete_chance
+form_government_in_exile
+format
+fort_attack
+fort_defence
+fort_level
+frame
+frames
+free_ideas
+free_resource_gifts
+freshness
+friend
+from					boring. event scope
+from_country
+from_province
+front
+frontline_focus
+frozen
+fullScreen
+galleys_in_province
+gamelaunched
+gamelist
+gamelistcommand
+gameplaysettings
+gamersgate_id
+gamma
+garrison
+garrison_growth
+gas_attack				boring. tech stuff
+gas_defence				boring. tech stuff
+general
+generate_article
+generator_selector
+giftaction
+give_military_access
+give_unit_command
+global
+global_assimilation_rate		MODIFIER [COUNTRY]: Adds an assmiliation modifier by n
+global_colonial_growth
+global_immigrant_attract		MODIFIER [COUNTRY]: Increases or decreases the attractiveness of the country to prospective immigrants.
+global_leadership
+global_leadership_modifier
+global_manpower
+global_manpower_modifier
+global_pop_consciousness_modifier	MODIFIER [COUNTRY]: Changes monthly pop consciousness change by n
+global_pop_militancy_modifier		MODIFIER [COUNTRY]: Changes monthly pop militancy change by n
+global_population_growth			MODIFIER [COUNTRY]: Changes the national population growth
+global_regiment_cost
+global_regiment_recruit_speed
+global_resources
+global_revolt_risk
+global_ship_cost
+global_ship_recruit_speed
+global_spy_defence
+global_tariffs
+global_tax_modifier
+global_trade_income_modifier
+go_bankrupt
+gold_income_percentage
+goldtype
+good_relation_infamy_factor
+good_relation_militancy_factor
+good_relation_prestige_factor
+goods_demand
+government						CONDITION/EFFECT [COUNTRY]: Returns true if the government is of the specified type. Changes the government to the specified type
+government_flag
+government_in_exile
+govt_flag						history file thing
+graphical_culture				culture thing
+graphicsSettings
+great_nations
+great_war_obligatory
+great_wars_enabled
+green
+gregoriandat
+ground_attack
+ground_defence_effiency
+groups
+guarantee
+guaranteeaction
+guard
+gui								interface stuff
+gui_window						interface stuff
+guiButtonType					interface stuff
+guitypes						interface stuff
+gun_power
+gun_range
+gunboat
+gunboat_action
+gunSmoke
+handler
+hard_attack
+has_advisor
+has_border_with_religious_enemy
+has_building					CONDITION [PROVINCE]: Returns true if the province has the specified building
+has_country_flag				CONDITION [COUNTRY]: Returns true if the country has the specified country flag
+has_country_modifier			CONDITION [COUNTRY]: Returns true if the country has the specified country modifier
+has_crime						CONDITION [PROVINCE]: Returns true if the current province has the specified crime
+has_cultural_sphere				CONDITION [COUNTRY]: Returns true if the country in scope has any countries of our culture in their SOI
+has_culture_core				CONDITION [PROVINCE?]: Returns true if the pop in scope has the same culture as one of the core nations in the province
+has_discovered
+has_empty_adjacent_province		CONDITION [PROVINCE]: Returns true if the current province has an empty adjacent province.
+has_empty_adjacent_state		CONDITION [PROVINCE]: Returns true if the current province has an empty adjacent state.
+has_entry
+has_faction
+has_factories					CONDITION [PROVINCE]: Returns true if the current province has any factories
+has_flashpoint					CONDITION [PROVINCE]: Returns true if the current province has flashpoint tension
+has_global_flag					CONDITION [COUNTRY]: Returns true if the global flag exists
+has_higher_military_score
+has_law
+has_leader						CONDITION [COUNTRY]: Returns true if the specified leader belongs to the current country.
+has_missionary
+has_national_minority			CONDITION [PROVINCE]: Returns true if there are pops of different cultures in the province.
+has_news_flag
+has_owner_culture
+has_owner_religion
+has_pop_culture
+has_pop_religion
+has_pop_type					CONDITION [PROVINCE]: Returns true if the current province has any pops of the specified type
+has_province_flag
+has_province_modifier			CONDITION [PROVINCE]: Returns true if the current province has the specified modifier
+has_recent_imigration			CONDITION [PROVINCE]: Returns true if the current province has received any immigrants in the past X days.
+has_recently_lost_war			CONDITION [COUNTRY]: Returns true if the country in scope has recently lost a war within 5 years.
+has_ruler
+has_set_language
+has_texture
+has_unclaimed_cores				CONDITION [COUNTRY]: Returns true if the country in scope has cores that are not owned by them.
+heading
+height
+heretic
+hidden_tooltip
+high_pressure_zones
+highest
+hire_date
+historical_friend
+historical_friends
+historical_ideas
+historical_model
+historical_units
+hold
+hold_force
+home							oob thing
+horizontal						interface thing
+horizontalBorder				interface thing
+horizontalScrollbar				interface thing
+hot
+hre
+hre_interest
+hull
+human
+humidity
+hunt_rebel
+ic_efficiency
+ic_modifier
+ic_to_supplies
+icons_count
+iconType					interface thing
+id							event thing
+idea
+identity
+ideologies
+ideology_group
+idtype
+ignore_decision
+ignore_decision_command
+ignore_smoothing
+illegal_inventions			savegame thing
+immediate					event thing
+immigrant_attract			MODIFIER [PROVINCE]: Changes the local immigrant attraction by n
+immigrant_push				MODIFIER [PROVINCE]: Changes the amount of people emmigration from the province by n
+immigration
+import_cost					MODIFIER [COUNTRY]: The amount in percentage that an extra cost is imposed on imported goods.
+in_default					CONDITION [COUNTRY]: Returns true if the current country has defaulted on loans to the specified country
+in_sphere					CONDITION [COUNTRY]: Returns true if the current country is in a SOI
+in_whole_capital_state
+income_statistics
+incomes
+incorporate_cost
+increase_colony
+increase_game_speed
+increase_opinion
+increase_relation
+increase_research			tech thing
+independence
+index
+indices
+industrial_efficiency
+industrial_efficieny
+industrial_score			CONDITION [COUNTRY]: Returns true if the country’s industrial score is equal to x or higher.
+infantry_in_province
+inflation
+inflation_reduction
+inflation_reduction_local
+inflation_statistics
+influence_leaders
+influence_modifier			MODIFIER [COUNTRY]: Percentage change in the influence points the country generates.
+influence_overflow
+influence_value
+influenced_by
+influences
+ingamelogin
+inherit						EFFECT [COUNTRY]: Adds all provinces of the specified country to the targeted country.
+initialized
+injected_days
+injected_money
+inland_sea
+installation_strike
+instantTextBoxType			interface thing
+insultaction
+interactive
+intercept
+intercept_chance
+intercept_penalty
+interdiction
+interest
+interested
+interesting
+interesting_countries
+intermediary_start
+intervene_war
+invasion
+invest_project_command
+invite
+involved_in_crisis			CONDITION [COUNTRY]: Returns true if the country in scope is participating in the current crisis
+is_accepted_culture			CONDITION [PROVINCE/POP]: Returns true if the province's majority culture/culture of the pop in scope is the same as the accepted culture(s) of the nation they reside in.
+is_artisan
+is_attacker
+is_bankrupt
+is_battle_plan_shared
+is_blockaded				CONDITION [PROVINCE]: Returns true if the current province is blockaded
+is_bomber
+is_buildable
+is_cag
+is_canal_enabled			CONDITION [COUNTRY]: Returns true if the specified canal has been constructed
+is_capital					CONDITION [PROVINCE]: Returns true if the current province is a capital.
+is_civil_war				cb thing
+is_claim_crisis				CONDITION [COUNTRY]: Returns true if the current crisis a claim crisis over territory.
+is_coastal					CONDITION [PROVINCE]: Determines whether the province is on a coast
+is_colonial					CONDITION [PROVINCE]: Returns true if the current province is a colonial province
+is_colonial_crisis			CONDITION [COUNTRY]: Returns true if the current crisis a claim crisis over uncolonized land.
+is_colony
+is_core						CONDITION [PROVINCE]: Returns true if the current province is a core of the country
+is_cultural_union			CONDITION [COUNTRY]: Returns true if the specified country is a cultural union
+is_culture_group			CONDITION [COUNTRY]: Returns true if the country in scope has a primary culture of the specified culture group, or equal to the culture group of the primary culture of that country.
+is_disarmed					CONDITION [COUNTRY]: Returns true if the current country has been disarmed	
+is_emperor
+is_fulfilled
+is_great_power
+is_greater_power			CONDITION [COUNTRY]: Returns true if the current country is a greater power.
+is_ideology_enabled			CONDITION [COUNTRY]: Returns true if the ideology is active in the nation
+is_in_any_faction
+is_independant				CONDITION [COUNTRY]: Determines whether the country is puppet or not
+is_influence_crisis			CONDITION [COUNTRY]: Returns true if the current crisis a claim crisis over influence?
+is_jingoism
+is_lesser_in_union
+is_liberation_crisis		CONDITION [COUNTRY]: Returns true if the current crisis a liberation crisis to liberate an entire nation.
+is_mission_country
+is_mission_province
+is_mobilised				CONDITION [COUNTRY]: Determines whether the country has mobilised or not.
+is_monarch_leader
+is_naval
+is_next_reform
+is_our_vassal				CONDITION [COUNTRY]: Returns true if the specified country is a vassal of the country in scope.
+is_overseas					CONDITION [PROVINCE]: Returns true if the specified province is overseas
+is_papal_controller
+is_possible_vassal			CONDITION [COUNTRY]: Returns true if the specified country can be released as a puppet state
+is_primary_culture			CONDITION [PROVINCE/POP]: Returns true if the province's majority culture/if culture of the pop in scope is the same as the primary culture of the nation they reside in.
+is_prioritized
+is_read
+is_releasable_vassal
+is_religion_enabled
+is_reserve
+is_revolution_target
+is_rival
+is_rocket
+is_secondary_power			CONDITION [COUNTRY]: Returns true if the specified country is a secondary power
+is_slave					pop thing
+is_sphere_leader_of			CONDITION [COUNTRY]: Returns true if sphere leader of specified country
+is_state_capital			CONDITION [PROVINCE]: Returns true if the province in is the state (the region) capital.
+is_state_religion			CONDITION [PROVINCE/POP]: returns true if the state which the province resides has a religious majority/if the pop in question has the same religion as the state religion.
+is_sub
+is_substate					CONDITION [COUNTRY]: Returns true if the current country is a substate.
+is_threat
+is_threatend
+is_triggered_only			event hing
+is_valid					cb thing
+is_vassal					CONDITION [COUNTRY]: Returns true if country is a vassal.
+is_water					terrain thing
+issue
+issue_change_speed			MODIFIER [COUNTRY]: Percentage increase in the rate at which pops change their issue interest.
+issues
+istargetasynchronous
+join_air
+join_faction
+join_fleet
+joinchannel
+joingame
+junior_union_with
+justified
+keepalive
+key
+kill_leader					EFFECT [COUNTRY]: Kills the leader with the specified id
+kill_ruler
+killer_name
+knows_country
+l_czech
+l_dutch
+l_english
+l_finnish
+l_french
+l_german
+l_hungarian
+l_italian
+l_polish
+l_portugese
+l_russian
+l_spanish
+l_swedish
+ladder
+land_attack_modifier
+land_attrition
+land_defense_modifier
+land_forcelimit
+land_forcelimit_modifier
+land_morale
+land_organisation			MODIFIER [COUNTRY]: Percentage increase in the organization levels for a country's armies.
+land_supply_cost
+land_unit_start_experience	MODIFIER [COUNTRY]: Fixed percentage point change in the starting experience of new land units.
+language
+largest_share
+last_attack
+last_bankrupt
+last_bribe
+last_command_date
+last_control_change
+last_controller_change
+last_drawn
+last_election
+last_excom
+last_greatness_date
+last_hre_vote
+last_imigration
+last_income
+last_investment
+last_lost_war
+last_mission
+last_mission_cancel
+last_names					cultures thing
+last_party_change
+last_policy_change
+last_price_history
+last_rebel_acceptance
+last_reform
+last_send_diplomat
+last_spending
+last_supply_pool
+last_throughput
+last_war
+lasthost
+lastmonthexpense
+lastmonthexpensetable
+lastmonthincome
+lastmonthincometable
+lastplayer
+lastyearexpense
+lastyearincome
+launch
+law
+layout
+leader_names
+leadership_gain
+leadership_modifier			MODIFIER [COUNTRY]: Percentage increase or decrease in the rate of Leadership generation.
+leave_alliance				EFFECT [COUNTRY]: Remove the current country from an alliance with the specified country.	
+leave_faction
+ledger_data
+ledger_data_x
+ledger_data_y
+left
+left_locked
+left_specific
+leftButton
+leftover
+leftover_supply_pool
+lender
+length_eq
+length_greater
+level_changed_date
+licence_technology
+life_needs					CONDITION [POP]: Returns true if any pop in the province life needs equal to x or more.
+life_needs_income
+life_rate
+life_rate_modifier
+life_rating					CONDITION/MODIFIER [PROVICNE]: Returns true if the life rating in the province is greater than or equal to the specified amount. Percentage change in the life rating of a province.
+light
+light_ship					unit thing
+lightType					interface thing
+lightTypes					interface thing
+limit						effect thing
+limit_by_local_supply
+limit_per_port
+limit_to_world_greatest_level
+limited
+limited_by_rgos
+limited_war
+limitedwar
+LineChartType				interface thing
+linewidth
+listBoxItemType				interface thing
+listBoxType					interface thing
+listening_station
+literacy					CONDITION/EFFECT [ALL ((effect just POP)]: Returns true if the literacy of the scope is at least n. Changes literacy by n
+literacy_con_impact
+literacy_gain
+load_on_plane
+load_unit
+loadgame
+loadgamestart
+loadType
+loan
+loan_interest				MODIFIER [COUNTRY]: Change in the interest applied to foreign loans
+loan_size
+local_anti_air
+local_artisan_input
+local_artisan_output
+local_artisan_throughput
+local_colonial_growth
+local_colonist_cost
+local_colonist_placement_chance
+local_defensiveness
+local_enemy
+local_factory_input			MODIFIER [PROVINCE]: Percentage change of the input of factories in the province's state.
+local_factory_output		MODIFIER [PROVINCE]: Percentage change of the output of factories in the province's state.
+local_factory_throughput	MODIFIER [PROVINCE]: Percentage change of the throughput of factories in the province's state.
+local_leadership
+local_leadership_modifier
+local_manpower
+local_manpower_modifier
+local_migration
+local_missionary_cost
+local_missionary_placement_chance
+local_partisan_support
+local_range
+local_repair
+local_research_points_modifier
+local_revolt_risk
+local_rgo_input
+local_rgo_output
+local_rgo_throughput
+local_ruling_party_support	MODIFIER [PROVINCE]: Percentage change in voter support for the current ruling party in the province.
+local_ship_build			MODIFIER [PROVINCE]: Percentage change of the time to build naval units in this province.
+local_spy_defence
+local_tariffs
+local_tax_modifier
+local_trade_income_modifier
+locatormatrix
+locatorname
+lockable
+lockpan
+lockzoom
+log
+loggedin
+loginclient
+loginresponce
+loginresult
+logistical_strike
+logout
+long_float
+looted
+lose_invention
+loss
+losses
+lost_IC
+lost_national
+low_pressure_zones
+lower
+loyalty
+loyalty_value
+luaClick
+luafunction_buttonclick
+luck
+luxury_needs			CONDITION [POP]: Returns true if any pop in the province has a luxury need equal to x or more.
+luxury_needs_income
+machine
+machineid
+major					event thing
+make_cb_action
+maneuver
+manpower
+manpower_gain
+manpower_percentage
+manufactory
+manufactory_nudge
+mapinfo
+mapMeshType				interface thing
+mapRenderingOptions
+mapTextType				interface thing
+maptype
+marriage_with
+mask
+maskedShieldType
+master_volume
+matrix_transforms
+max_attrition
+max_bought
+max_demand
+max_elan
+max_level
+max_loan_modifier		MODIFIER [COUNTRY]: Percentage increase or decrease in the maximum loan the country can take.
+max_manpower
+max_manpower_greater_than
+max_military_spending	MODIFIER [COUNTRY]: Change in the maximum military spending threshold.
+max_national_focus		tech thing
+max_producing
+max_provinces			map thing
+max_railroad			terrain thing
+max_size
+max_skill
+max_social_spending		MODIFIER [COUNTRY]: Change in the maximum social spending threshold.
+max_strength			unit thing
+max_tariff				MODIFIER [COUNTRY]: Change in the maximum permissible tariff.
+max_tax					MODIFIER [COUNTRY]: Change in themaximum permissible tax.
+max_war_exhaustion		MODIFIER [COUNTRY]: Change the maximum war exhaustion by n
+maxHeight
+maximum_attrition
+maximum_policy
+maximum_speed
+maximum_workforce
+maxValue				interface thing
+maxWidth				interface thing
+may_explore
+mean_time_to_happen		event thing
+membername
+mercenary
+mercenary_cost
+merchant_compete_chance
+merchant_cost
+merchant_own_cot_compete_chance
+merchant_own_cot_placement_chance
+merchant_placement_chance
+merchants
+merge_at_rally_point
+merge_max_size
+merge_units
+meshType				interface thing
+messageclass
+metal_production
+middle					pop thing
+middle_everyday_needs
+middle_income_modifier
+middle_life_needs
+middle_luxury_needs
+middle_strata
+middle_strata_everyday_needs
+middle_strata_life_needs
+middle_strata_luxury_needs
+middle_strata_militancy
+middle_tax
+middle_vote				reform thing
+migration_chance		pop thing
+migration_target		pop thing
+mil
+milaccess
+mild_winter
+military_access			CONDITION/EFFECT [COUNTRY]: Returns true if the target country has military access to the scoped country. Gives the target country military access to the specified country.
+military_access_with
+military_construction
+military_intel
+military_maintenance
+military_reform			CONDITION [COUNTRY]: Returns true if the country has a specific military reform at a specific level
+military_reforms		reforms thing
+military_score			CONDITION [COUNTRY]: Returns true if the current country has a military score of at least n
+military_spending
+military_tactics
+min
+min_demand
+min_military_spending	MODIFIER [COUNTRY]: Change in the minimum military spending threshold.
+min_port_level
+min_social_spending		MODIFIER [COUNTRY]: Change in the minimum social spending threshold.
+min_tariff				MODIFIER [COUNTRY]: Change in the minimum permissible tariff.
+min_tax					MODIFIER [COUNTRY]: Change in themaximum permissible tax.
+mine
+mine_rgo_eff
+mine_rgo_size
+minimum_policy
+minimum_promotion
+minimum_revolt_risk
+minimum_wage
+minister_alive
+ministers
+minorities
+minValue
+missionaries
+missionary_construction
+missionary_cost
+missionary_maintenance
+missionary_placement_chance
+mobilisation_economy_impact	MODIFIER [COUNTRY]: Percentage increase/decrease in the economic impact of a country mobilizing its population.
+mobilisation_size			MODIFIER [COUNTRY]: Percentage increase/decrease in the mobilization level for the country.
+mobilization_impact			MODIFIER [COUNTRY]: Percentage increase/decrease in the mobilization impact of a country.
+model
+modified_by
+modify_escorts
+modify_relation
+modify_transports
+monarch
+monarch_names
+monarchy
+money_lent
+money2
+monitor
+monopoly
+month
+monthly_income
+months
+motd
+mouse_speed
+move_capital
+move_issue_percentage	EFFECT [POP]: Makes a certain percentage of people supporting issue A, switch to issue B
+move_order
+move_pop				EFFECT [POP]: Moves the targeted pop to the specified province.
+move_pop_command
+move_sound
+moveable
+movement
+movement_cost			MODIFIER [COUNTRY]: Changes troop movement speed by n
+movement_evaluation
+movement_issue
+movement_progress
+movement_speed
+movement_tag
+muddyness
+multi_sampling
+multiply_citysize
+multisampling
+multiSpriteButtonType
+music_volume
+mutual
+nap
+nation
+nation_culture
+nation_religion
+nation_size_statistics
+national_provinces_occupied	CONDITION [COUNTRY]: Returns true if a foreign power occupies x% or more of the current country’s provinces.
+national_unity
+national_unity_effect
+nationalize					CONDITION [COUNTRY]: Turns all factories invested by foreign powers your own.
+nationalvalue				CONDITION/EFFECT [COUNTRY]: Returns true if the current country’s national value is equal to the national value specified. Changes the current country's national value to the one specified
+native_ferocity
+native_hostileness
+native_size
+naval_air_target_chance
+naval_attack
+naval_attack_modifier
+naval_attrition
+naval_base_efficiency
+naval_capacity
+naval_combat_slot
+naval_defense_modifier
+naval_forcelimit
+naval_forcelimit_modifier
+naval_icon
+naval_morale
+naval_need
+naval_organisation			MODIFIER [COUNTRY]: Percentage increase in the organization levels for a country's ships.
+naval_strike
+naval_supply_cost
+naval_unit_start_experience	MODIFIER [COUNTRY]: Percentage increase in the starting experience of new ships.
+navy
+navy_size_percentage
+navy_tradition
+need
+needaccept
+needs_cost
+neighbor_countries
+neighbor_provinces
+neighbour
+neutrality					EFFECT [COUNTRY]: Dissolves all alliances a nation has and set all satellites free.
+neutrality_change
+new_unit_id
+newday
+newowner
+news_collector
+news_desc_long				news thing
+news_desc_medium			news thing
+news_desc_short				news thing
+news_printing_count
+news_priority
+news_scope
+news_title
+next_quarterly_pulse
+next_step_only				reform thing
+next_unit
+next_yearly_pulse
+night
+night_attack
+no_religion_penalty
+no_supply_days
+node
+nofade
+non_accepted_pop_consciousness_modifier	MODIFIER [COUNTRY]: Monthly change in consciousness (CON) for all POPs of non-accepted cultures.
+non_accepted_pop_militancy_modifier		MODIFIER [COUNTRY]: Monthly change in militancy (MIL) for all POPs of non-accepted cultures.
+non_aggression_pact
+non_aggression_pact_with
+non_state_culture_literacy				history file thing
+nonstate_consciousness					history file thing
+noOfFrames								interface thing
+noOfTriangles							interface thing
+noOfVertices							interface thing
+norefcount								interface thing
+normal_winter
+not							logical operator
+not_if_x_exists
+notconnected
+nr
+nuclear_production
+nuke_mission
+nukes
+num_in_faction
+num_of_allies				CONDITION [COUNTRY]: Returns true if the country has x or more allies.
+num_of_cardinals
+num_of_cities				CONDITION [COUNTRY]:Returns true if the country has x or more cities (aka provinces)
+num_of_cots
+num_of_electors
+num_of_monopolys
+num_of_ports				CONDITION [COUNTRY]: Returns true if the country has x or more ports.
+num_of_religion
+num_of_revolts				CONDITION [COUNTRY]: Returns true if there are x or more revolts in the country (x being the number of states under rebel control).
+num_of_royal_marriages
+num_of_substates			CONDITION [COUNTRY]: Returns true if the number of substates a country has is equal to x or more.
+num_of_trade_agreements
+num_of_trade_embargos
+num_of_unions
+num_of_vassals				CONDITION [COUNTRY]: Returns true if the number of substates a country has is equal to x or more.
+num_of_vassals_no_substates	CONDITION [COUNTRY]: Returns true if the number of puppets that are not substates a country has is equal to x or more.
+number_of_colonies
+number_of_loans
+number_of_states			CONDITION [COUNTRY]: Returns true if the number of states a country has is equal to x or more.
+number_of_voters
+object
+objective
+objectives
+objects
+objectTypes
+occupation_mult
+occupation_policy
+odds
+offence_modifier
+offer_loan
+offerloan
+offermilaccess
+officer_recruitment
+officers_ratio
+offmap_industry_intel
+offmap_land_intel
+offmap_naval_intel
+offmap_political_intel
+offmap_vp
+offset
+offset2
+offset3
+offset4
+on_add
+on_collection
+on_completion
+on_execute
+on_po_accepted
+on_printing
+one_per_state
+only_great_power
+onmap
+oob							history file thing
+open_factory
+open_factory_invest
+open_market
+opennegotiation
+operator
+ops_area
+opt_force
+option						events thing
+or							logical operator
+order_efficiency
+ordertype
+organisation
+orientation
+original_attacker
+original_defender
+original_wargoal
+origo
+other
+our_power
+our_provinces
+out_of_supply_modifier
+outline
+outliner_show_as_percent
+output_goods
+OverlappingElementsBoxType		interface thing
+overlord
+overseas_income
+overseas_penalty				goods thing
+overseas_provinces_percentage
+oversound
+overSprite
+own_provinces
+owned_by						CONDITION [PROVINCE]: Returns true if the current province is owned by the specified country
+owners
+owns							CONDITION [COUNTRY]: Returns true if the current country owns the specified province
+pagan
+page
+pan
+pan_nationalist
+panel
+panelType						interface thing
+papacy
+papacy_interest
+paradrop_mission
+parallel
+parent
+parent_scope
+part_of_sphere					CONDITION [COUNTRY]: Returns true if current coutnry is part of a sphere
+partchannel
+particleType
+partisan_efficiency
+party
+party_issues					reforms thing
+password
+path2
+patrol
+pattern
+pause_on_event
+pausegame
+pausepopup
+pay_back_loan
+pay_loan
+pdx_id
+pdx_tooltip
+pdx_tooltip_delayed
+pdxa
+pdxmesh
+peace_action
+peace_consumer_goods_demand
+peace_cost_factor				cb thing
+peace_offmap_intel
+peace_terms
+peacetime_manpower_rotation
+penalty_factor
+pension_level
+percent
+percent_afforded
+percent_sold_domestic
+percent_sold_export
+permanent_prestige
+personalmessage
+phase
+phi
+picture_case
+PieChartType					cb thing
+pitch
+placed_merchantsÂ´
+placeholder
+plan
+planes
+plantation
+plantation_demand
+player
+player_balance
+player_monthly_pop_growth
+player_monthly_pop_growth_date
+player_monthly_pop_growth_tag
+player_pops_consumption_cache
+playerconnected
+po_add_to_sphere
+po_annex
+po_clear_union_sphere
+po_colony
+po_concede_defeat
+po_create_country
+po_demand_state
+po_destroy_forts
+po_destroy_naval_bases
+po_disarmament
+po_gunboat
+po_install_communist_gov_type
+po_make_puppet
+po_release_puppet
+po_remove_cores
+po_remove_prestige
+po_reparations
+po_status_quo
+po_transfer_provinces
+po_uninstall_communist_gov_type
+points
+policy
+political_decisions			decisions thing
+political_movement			CONDITION [POP]: Returns true if the pop is currently part of any political movement.
+political_movement_strength	CONDITION [COUNTRY]: Checks if there is any political movement with x or more support.
+political_reform			EFFECT [COUNTRY]: Changes the target country to the specified political reform.
+political_reform_desire		MODIFIER [COUNTRY]: Percentage change in the desire of all pops within the country for political reforms.
+political_reform_want		CONDITION [COUNTRY]: Returns true if x% or more of the population wants a social reform, x being a value between 0.00 and 1.00
+political_reforms			reforms thing
+pool
+poor
+poor_everyday_needs
+poor_income_modifier
+poor_life_needs
+poor_luxury_needs
+poor_savings_modifier
+poor_strata
+poor_strata_everyday_needs
+poor_strata_life_needs
+poor_strata_luxury_needs
+poor_strata_militancy
+poor_tax
+poor_vote
+pop_build_factory			rules thing
+pop_build_factory_invest	rules thing
+pop_consciousness_modifier	MODIFIER [PROVINCE]: Monthly increase or decrease in (trait; either consciousness or militancy) for all pops in a province.
+pop_expand_factory			rules thing
+pop_expand_factory_invest	rules thing
+pop_growth					tech thing
+pop_join_chance
+pop_majority_culture		CONDITION [COUNTRY/POP]: Returns true if the majority of a nation's population/if the majority of the pop(s) are of the specified culture.
+pop_majority_ideology		CONDITION [COUNTRY/POP]: Returns true if the majority of a nation's population/if the majority of the pop(s) have the specified ideology.
+pop_majority_issue			CONDITION [COUNTRY/POP]: Returns true if the majority of a nation's population/if the majority of the pop(s) have the specified majority issue
+pop_majority_religion		CONDITION [COUNTRY/POP]: Returns true if the majority of a nation's population/if the majority of the pop(s) have the specified religion.
+pop_militancy
+pop_militancy_modifier		MODIFIER [PROVINCE]: Monthly increase or decrease in (trait; either consciousness or militancy) for all pops in a province.
+pop_open_factory			rules thing
+pop_open_factory_invest		rules thing
+pop_unemployment
+popproject
+pops_paychecks
+poptype
+popularity
+population_growth			MODIFIER [PROVINCE]: Percentage increase or decrease in the natural growth of pops in a province.
+population_vote
+popup
+port_rotation
+port_strike
+position
+positioning
+positions
+positionType
+possible_inventions
+possible_retreat
+potential
+precipitation
+prerequisites
+pressure
+prestige_factor				EFFECT [COUNTRY]: Changes the prestige of the targeted country by the current prestige multiplied with n.
+prestige_from_land
+prestige_from_naval
+previous
+previous_monarch
+previous_war
+price_change
+price_history
+price_history_last_update
+price_pool
+primary
+primary_culture				CONDITION [COUNTRY]: Returns true if the country has the specified culture as its primary culture.
+primary_culture_voting		rules thing
+primitiveType
+priority_add
+produces
+production_efficiency
+production_income
+production_type
+profit_history_current
+profit_history_days
+profit_history_entry
+progressbar3dType
+progressbartype
+projectionType
+promote_leader
+promote_to
+promoted
+promotion_chance
+protect
+prov_desc
+prov_vp
+province_control_days		CONDITION [PROVINCE]: Returns true if the province has been controlled for X number of days by someone other than the owner.
+province_decisions			decisions thing
+province_event
+province_flag_sprite
+province_id					CONDITIOn [PROVINCE]: Returns true if current province has the specified ID.
+province_migration_target
+province_panel
+province_pop_id
+provinceBorderType			interface thing
+provinceType				interface thing
+provinceWaterType			interface thing
+provincial_aa_efficiency
+pulsating
+pulseLowest
+pulseSpeed
+pure_revolt_risk
+quadTextureSprite			interface thing
+queryresult
+quit
+radar_efficiency
+radar_impact
+radar_level
+radicalism
+radio_strength
+radioButton
+radioButtonGroupType
+radioScrollbar
+railroad_visibility
+railroads
+rally_point
+random							EFFECT [ALL]: Specifies the probability n that the effects specified will occur.
+random_center_of_trade
+random_country					SCOPE [COUNTRY EFFECTS]: Changes the current scope to a random existing country.
+random_empty_neighbor_province	SCOPE [PROVINCE EFFECTS]: Changes the current scope to random, empty neighbour province.
+random_list						EFFECT [ALL]: Causes one of two or more possible effects to happen and specifies the probability for each
+random_neighbor_province		SCOPE [PROVINCE EFFECTS]: Changes the current scope to a random neighbour province.
+random_owned					SCOPE [COUNTRY EFFECTS]: Changes the current scope to a random owned province.
+random_party_votes
+random_pop						SCOPE [COUNTRY EFFECTS]: Changes the current scope to a random pop in the country.
+random_province					SCOPE [COUNTRY EFFECTS]: Changes the current scope to a random owned province. Does not seem to be a difference from random_owned
+random_state					SCOPE [COUNTRY EFFECTS]: Changes the current scope to a random owned state.
+range
+rangeLimitMax
+rangeLimitMaxIcon
+rangeLimitMin
+rangeLimitMinIcon
+rank
+rares_production
+real_demand
+rebase
+rebel
+rebel_hunting_loc
+rebel_occupation
+rebel_org_gain
+rebel_power_fraction			CONDITION [COUNTRY]: Returns true if any rebel has a power (not revolt risk) or at least x%
+rebel_type
+receiver
+recipient
+recipient_state
+reconnaissance
+recruited_percentage			CONDITION [COUNTRY]: Returns true if the percentage of recruited regiments is at least x%
+red
+reduce_pop						EFFECT [POP]: Changes the targeted pop to the given proportion of its current value. 
+reduced_naval_attrition
+reduction_modifier
+refinery_efficiency
+refreshRate
+regency
+regent
+regiment
+regiment_recruit_speed
+region_sea
+registerresponce
+registeruser
+regular_experience_level
+reinforce
+reinforce_chance
+reinforce_rate					tech thing
+reinforce_speed					MODIFIER [COUNTRY]: Increases the reinforce rate of armies
+reinforcing
+relation
+relative_salary
+release							EFFECT [COUNTRY]: Allows the target country to release the specified country and thereby create a new independent nation.
+release_vassal					EFFECT [COUNTRY]: If this targets a vassal nation (or substate), the vassal is freed. If this targets a non-existing nation, it is released as a vassal of the current country.
+releasevassal
+reliability
+religion						EFFECT [COUNTRY]: Changes the scoped country's state religion to the specified one.
+religion_decisions
+religion_group
+religion_years
+rem_attacker
+rem_defender
+remove_accepted_culture			EFFECT [COUNTRY]: Removes the specified culture as accepted by the targeted country.	
+remove_advisor
+remove_building
+remove_casus_belli
+remove_core						EFFECT [PROVINCE]: Removes a core of the given country to the targeted province.
+remove_country_modifier			EFFECT [COUNTRY]: Removes a country modifier.
+remove_crime
+remove_culture
+remove_decision
+remove_economic_reform
+remove_fow
+remove_from_sphere
+remove_idea
+remove_merchant
+remove_military_reform
+remove_minister
+remove_political_reform
+remove_province_modifier		EFFECT [PROVINCE]: Removes a province modifier
+remove_random_economic_reforms	EFFECT [COUNTRY]: Removes n random economic reforms
+remove_random_military_reforms	EFFECT [COUNTRY]: REmoves n random military reforms
+remove_social_reform
+remove_theatre_command
+remove_trait
+removegame
+rename_sub_unit
+rename_unit
+renderTrees
+repair_rate
+reparations
+replace
+replace_path
+republic
+republican_name
+request
+requestgame
+requestlogin
+requestpeace
+requeststartown
+requestusersgames
+research
+research_bonus_from
+research_efficiency			tech thing
+research_efficieny
+research_optimum			pop thing
+research_points				MODIFIER [COUNTRY]: Flat change in research points per day.
+research_points_modifier	MODIFIER [COUNTRY]: Percentage change in the rate of research points (RP) generation.
+research_points_on_conquer	MODIFIER [COUNTRY]: Percentage modifier on the number of research points an uncivilized nation gains when they conquer lands.
+reserve
+reserve_focus
+reserves
+reserves_penalty_size
+resetgame
+resilient
+resizeableSpriteType		interface thing
+resizeableWindow			interface thing
+result
+retargeting
+retreat
+return_to_base
+revolt_percentage			CONDITION [COUNTRY]: Returns true if the percentage of revolts in the country is equal to x or higher.
+revolution_target
+revolution_target_exists
+revolutionary_war
+rgo_eff
+rgo_goods_input
+rgo_goods_output
+rgo_goods_throughput
+rgo_input
+rgo_output
+rgo_size
+rgo_throughput
+rich
+rich_everyday_needs
+rich_income_modifier
+rich_life_needs
+rich_luxury_needs
+rich_only
+rich_strata
+rich_strata_everyday_needs
+rich_strata_life_needs
+rich_strata_luxury_needs
+rich_strata_militancy
+rich_tax
+rich_tax_above_poor
+rich_vote
+right
+right_locked
+right_specific
+rightButton
+rival
+rival_countries
+river_attack
+rivers
+rotation
+row
+royal_marriage
+rule
+rules
+ruling_party			CONDITION [COUNTRY]: Returns true if the ruling party is equal to tag.
+ruling_party_ideology	EFFECT [COUNTRY]: Changes the current ideology of the country's ruling party.
+ruling_party_support	CONDITION [COUNTRY]: Returns true if the ruling party of the current country belongs to the specified ideology. This is not a valid condition for ideologies.txt.
+runway_cratering
+safe
+sail
+sainte_laque			rules thing
+salary
+same_as_ruling_party
+saved_country_supply
+saved_templates
+savings
+scale
+scaled_consciousness	EFFECT [POP]: Changes the consciousness of the targeted pops by the given value multiplied by the proportion of the pop that is of the given ideology or issue.
+scaled_militancy		EFFECT [POP]: Changes the militancy of the targeted pops by the given value multiplied by the proportion of the pop that is of the given ideology or issue.
+scheduled_mobilization
+schools
+scope
+scorch_earth
+scorched
+scroll_speed
+scrollbargroupType
+scrollbarType
+scrollingSprite
+sea_attack
+sea_defence
+sea_repair
+sea_starts
+sea_text_alpha
+sea_zones
+seasonInfo
+secede_province			EFFECT [PROVINCE]: Transfers the province in scope from the targeted nation to another.
+second
+seize_colony
+select_army
+select_event_option
+select_navy
+select_province
+select_sound
+select_units
+selectbookmark
+self_unciv_economic_modifier	MODIFIER [COUNTRY]: Changes the research points cost of economic reforms
+self_unciv_military_modifier	MODIFIER [COUNTRY]: Changes the research points cost of military reforms
+sellprov
+send_colonist
+send_expedition
+send_expedition_command
+send_merchant
+send_missionary
+send_spy
+sendchunk
+sendgame
+senior_union_with
+seperatism
+serial
+server
+serveradress
+session_name
+set_ai_param_command
+set_command_level
+set_controller
+set_country_flag		EFFECT [COUNTRY]: Sets the specified flag for the current country.
+set_economic_reform
+set_focus
+set_global_flag			EFFECT [COUNTRY]: Sets the specified flag globally (meaning every tag, existing or not, gets the flag)	
+set_military_reform
+set_news_flag
+set_order
+set_plan_attributes_command
+set_plan_axis_command
+set_plan_forces_command
+set_plan_objectives_command
+set_plan_ops_area_command
+set_plan_transport_state_command
+set_political_reform
+set_province_flag
+set_rally_point
+set_revolution_target
+set_ruling_party
+set_social_reform
+set_theatres_command
+set_variable			EFFECT [COUNTRY]: Creates a new variable and assigns it the value n. If the variable exist，it's value will be set by n.
+setdifficulty
+setgameplayoptions
+sethistoricaldate
+setrandom
+severe_winter
+shadow_effect
+shadows
+shadowSize
+shared_prestige			tech thing
+shield3dType			interface thing
+shieldtype				interface thing
+ship
+ship_names
+ship_recruit_speed
+shore_bombardment
+shortcut
+side
+siege_combat
+siege_won_effect
+siege_won_trigger
+simple
+simpleWater
+size_changes
+skill
+slavery_allowed
+slider
+slider_locks
+smart					rebel thing
+social_movement			CONDITION [POP]: Returns true if the pop is currently part of any social movement.
+social_movement_strength	CONDITION [COUNTRY]: Checks if there is any social movement with x or more support.
+social_reform			CONDITION [COUNTRY]: Returns true if the country has a specific social reform at a specific level
+social_reform_desire	MODIFIER [COUNTRY]: Percentage change in the desire of all pops within the country for social reforms.
+social_reform_want		CONDITION [COUNTRY/POP]: Returns true if x% or more of the population/if the pop in scope has a social reform want percentage greater than or equal to the specified amount.
+social_reforms			reforms thing
+social_spending			CONDITION [COUNTRY]: Returns true if the current country is investing x% or more in social issues.
+soft_attack
+softness
+sold_supply_pool
+soldier_to_pop_loss		tech thing
+someone_can_form_union_tag
+song
+sortie
+sound_fx_volume
+soundeffect
+soundeffects
+spacing
+spawn_chance
+spawn_railway_track
+spawned
+special
+specific_exclusive
+specular
+sphere
+sphere_leader
+sphere_owner			SCOPE [COUNTRY BOTH]: Changes the current scope to the sphere owner of the country.
+spies
+spies_cost
+spiescaught
+spin
+split_and_load_army
+split_troops
+spotting_chance
+spread_out
+sprite
+sprite_index
+sprite_level
+sprite_mount
+sprite_mount_attach_node
+sprite_override
+sprites
+spriteType
+spriteTypes
+spy_allocation
+spy_date
+spy_efficiency
+spy_lower_national_unity
+spy_mission
+spy_priority
+spy_raise_national_unity
+stability
+stability_cost
+stability_cost_modifier
+stability_investment
+staging_province
+stagnated
+stagnation
+stance
+standardchatmessage
+start_election
+start_level
+start_pop_index
+start_year
+started
+starter_share
+startgame
+startown
+starttransfer
+startValue
+state
+state_building
+state_buildings
+state_capital_only	pop thing
+state_id			CONDITION [PROVINCE]: Returns true if the specified province belongs to the same state as the province in the current scope.
+state_province_id	
+state_scope			SCOPE [PROVINCE TRIGGER]: Changes the current scope to the state which the province is in.
+state_vote
+static
+staydownbutton
+steam
+steam_id
+step
+stepSize
+stockpile
+stop
+stop_research
+strata
+strategic_attack
+strategic_bomb
+strategic_factory
+strategic_redeployment
+strategic_warfare
+string_address
+strings_contains
+strings_eq
+strings_match
+stronger_army_than
+style
+sub_attack
+sub_detection
+sub_unit
+submarine_attack
+subsidies
+subsidised
+substate
+substate_of			CONDITION [COUNTRY]: Returns true if the current country is a substate of the specified country.
+success
+succession
+sunk_by
+sunk_ship
+sunk_ships
+supplies
+supply
+supply_consumption_score
+supply_cost
+supply_pool
+supply_range		tech thing
+supply_throughput
+supply_transfer_cost
+supply_transport_mission
+supplyconsumption
+support
+support_attack
+suppression
+suppression_command
+suppression_points_modifier	MODIFIER [COUNTRY]: Percentage change in the gain of suppression points.
+supression
+surface_defence
+surface_detection
+surprise_chance
+suseptibility
+systemmessage
+tables
+tactical_attack
+tags_contains
+tags_eq
+tags_match
+take_bank_loan
+take_wartaxes
+tanks
+target
+targeting_chance
+targeting_choice
+tariff_efficiency_modifier
+tax_base
+tax_change
+tax_eff
+tax_efficiency		MODIFIER [COUNTRY]: Percentage change in the efficiency of tax collection for the entire country
+tax_income
+tech_school
+technology_cost
+technology_group	tech thing
+temp_settings
+temperature
+template
+tension
+terms
+terrain_definition
+terrain_sheet_heights
+terrain_topology
+territorial_pride
+testmap
+text_add			interface thing
+text_height			interface thing
+text_position		interface thing
+text_rotation		interface thing
+text_scale			interface thing
+text1				interface thing
+text10				interface thing
+text2				interface thing
+text3				interface thing
+text4				interface thing
+text5				interface thing
+text6				interface thing
+text7				interface thing
+text8				interface thing
+text9				interface thing
+textblock			interface thing
+textBoxType			interface thing
+texts_count			interface thing
+textSpriteType		interface thing
+texture				interface thing
+textureFile			interface thing
+textureFile1		interface thing
+textureFile2		interface thing
+textureFile3		interface thing
+textureFile4		interface thing
+textureFile5		interface thing
+textureFile6		interface thing
+textureFile7		interface thing
+textureFile8		interface thing
+textureFile9		interface thing
+textureloop			interface thing
+theatres
+their_power
+theocracy
+theta
+this				decision thing
+this_culture_union		CONDITION [COUNTRY]: Returns true if the nation specified has the same cultural union as the country in scope.
+this_remove_casus_belli	
+this_union
+thismonthexpense
+thismonthincome
+threat
+threat_countries
+threat_impact
+threeDguiType
+throttle
+tickstamp
+tileSpriteType		interface thing
+tilingCenter
+time
+title_case
+title_image
+to
+toggle
+toggle_plan_objective_command
+toggle_prioritize
+toggle_reinforce
+toggle_upgrade
+tolerance
+tolerance_heathen
+tolerance_heretic
+tolerance_own
+tolerance_to_this
+tool_arrow
+tool_borders
+tool_color
+tool_icons
+tooltip
+tooltipText
+torpedo_attack
+total_amount_of_divisions	CONDITION [COUNTRY]: Returns true if the number of armies belonging to a country is equal to x or more.
+total_amount_of_planes
+total_amount_of_ships		CONDITION [COUNTRY]: Returns true if the number of ships belonging to a country is equal to x or more.
+total_damage_org
+total_damage_str
+total_defensives			CONDITION [COUNTRY]: Returns true if the current country is currently involved in x or more defensive battles.
+total_ic
+total_ideas
+total_merchants
+total_num_of_ports			CONDITION [COUNTRY]: Returns true if the current country controls x or more ports.
+total_of_ours_sunk			CONDITION [COUNTRY]: Returns true if the number of sunken ships belonging to the current country is equal to x or more.
+total_offensives			CONDITION [COUNTRY]: Returns true if the current country is currently involved in x or more offensive battles.
+total_pops					CONDITION [COUNTRY]: Returns true if the tag has equal or more pops than N.
+total_sea_battles			CONDITION [COUNTRY]: Returns true if the number of sea battles currently undertaken is equal to x or more.
+total_sunk_by_us			CONDITION [COUNTRY]: Returns true if the total number of ships sunk by the current country is equal to x or more.
+total_we_bomb
+toughness
+town
+track
+trade
+trade_action
+trade_agreement
+trade_agreement_with
+trade_cap
+trade_cap_land
+trade_cap_naval
+trade_cap_projects
+trade_efficiency
+trade_embargo_by
+trade_from
+trade_goods
+trade_goods_in_state
+trade_income
+trade_income_percentage
+trade_nudge
+trade_refusal
+trade_rival
+trade_to
+tradeable
+tradeagreementaction
+traded_away
+traded_for
+transfer_subunit
+transparencecheck
+transport
+transport_capability
+transport_supplies_mission
+transport_weight
+treasury				EFFECT [COUNTRY]: Change the amount of cash in the treasury by n.	
+tree
+tree_definition
+tree_density
+trigger					event thing
+trigger_revolt
+tropical
+truce_months
+truce_until
+truce_with				CONDITION [COUNTRY]: Returns true if the current country has a truce with the specified country.
+trust
+tutorial_window
+tutorial_window_position
+tutorial_window_size
+tws_battle_factor
+unciv_economic_modifier
+unciv_military
+unciv_military_modifier
+uncivilized
+uncolonized_province
+unemployment			CONDITION [ALL]: Returns true if there is x% or more unemployment in the [SCOPE]
+unemployment_benefit
+unemployment_by_type	CONDITION [PROVINCE]: Returns true if there is x% unemployment for pops of that poptype
+unfulfilled_war_goal
+union					cultures thing
+unit
+unit_command_given_to
+unit_cooperation
+unit_cost
+unit_deployment
+unit_has_leader			CONDITION [COUNTRY]: Returns true if any unit in the current country has a leader.
+unit_in_battle			CONDITION [COUNTRY]: Returns true if the country has any unit that is fighting a battle.
+unit_in_siege
+unit_names
+unit_plan_command
+unit_recruitment_time	MODIFIER [COUNTRY]: Changes unit recruitment time by x%. Only affects units that are not in queue
+unit_repair
+unit_set
+unit_start_experience	MODIFIER [COUNTRY]: Fixed percentage point change in the starting experience of all new units.
+unit_transfer
+units_in_province		CONDITION [PROVINCE]: Returns true if there are x or more units in the current province.
+unitstatsBillboardType	interface thing
+unload_from_plane
+unload_unit
+unprofitable_days
+update_time
+updategame
+updategamestatus
+upper
+upper_house				CONDITON/EFFECT [COUNTRY]: Returns true if the country's upper house has the required characteristics. Changes the proportion of the upper house that follows the specified ideology.
+upsound
+upSprite
+usage
+use_animation
+user
+user_dir
+useRangeLimit
+userAnisotropy
+userslist
+valid_for_new_country
+value_modifier
+values_contains
+values_eq
+values_greater
+variables
+vassal
+vassal_of				CONDITION [COUNTRY]: Returns true if the current country is a puppet state to the specified country.
+vassal_revolt
+vassalaction
+verifiedpass
+verifieduser
+versionName
+versus
+vertical
+verticalBorder
+verticalScrollbar
+vertices
+voicetype
+volume
+vsync
+wait
+war_consumer_goods_demand
+war_countries			SCOPE [COUNTRY TRIGGER]: Changes scope to all countries at war with the previously scoped country.
+war_exhaustion_effect
+war_goal
+war_goal_attack
+war_goal_defender
+war_goal2
+war_score				CONDITION [COUNTRY]: Returns true if war score is at least x%.
+war_with				CONDITION [COUNTRY]: Returns true if the current country is at war with the specified country.
+warning
+warningaction
+warsubsidy
+wartax
+was_paid
+was_paradropped
+weather
+weatherBillboardType
+weight
+weight_to_split
+weighted_value
+which
+will_rise
+win
+window_position
+window_size
+windowType
+windspeed
+wing
+winner
+winter
+winter_attrition
+with
+withdraw_expedition
+work_available		CONDITION [PROVINCE]: Returns true if there is any work available for the specified pop type
+worker
+workforce
+workplace_input
+workplace_output
+world_wars_enabled
+worldmarket
+worldmarket_pool
+writetochatbuffer
+xAnimationFile
+xFile
+xp_gain
+years
+years_of_income
+years_of_research	EFFECT [COUNTRY]: Grants a number of RP that would have been accumulated over n years.
+yesterday_sold_supplypool
+zoom_speed
